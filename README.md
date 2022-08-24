@@ -22,7 +22,7 @@ import {QRious} from  '@phippsytech/svelte-qrious';
 ```
 
 ## Settings
-Simply create an instance of `QRious` and you've done most of the work. You can control many aspects of the QR code using the following attributes:
+You can control many aspects of the QR code using the following attributes:
 
 | Field | Type | Description | Default |
 | --------------- | ------- | -------------------------------------------------- | ------------- |
@@ -30,7 +30,7 @@ Simply create an instance of `QRious` and you've done most of the work. You can 
 | backgroundAlpha | Number | Background alpha of the QR code | `1.0` |
 | foreground | String | Foreground color of the QR code | `"black"` |
 | foregroundAlpha | Number | Foreground alpha of the QR code | `1.0` |
-| level | String | Error correction level of the QR code (L, M, Q, H) | `"L"` |
+| level | String | Error correction level of the QR code (L, M, Q, H) | `"H"` |
 | padding | Number | Padding for the QR code (pixels) | `null` (auto) |
 | size | Number | Size of the QR code (pixels) | `100` |
 | value | String | Value encoded within the QR code | `""` |
@@ -51,4 +51,11 @@ Simply create an instance of `QRious` and you've done most of the work. You can 
 If you have any problems with the Svelte QRious component raise an issue [here](https://github.com/phippsytech/svelte-qrious/issues).
 
 ## License
-See [LICENSE.md](https://github.com/neocotic/qrious/blob/master/LICENSE.md) for more information on our GPLv3 license.
+**Svelte QRious**
+Copyright © 2022 Phippsy Tech Pty Ltd
+
+**QRious**
+Copyright © 2017 Alasdair Mercer  
+Copyright © 2010 Tom Zerucha
+
+See LICENSE.md for more information on our GPLv3 license.
