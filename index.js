@@ -1,0 +1,1 @@
+export {default as QRious} from './src/QRious.svelte';
