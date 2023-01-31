@@ -12,6 +12,8 @@
 $ npm i @phippsytech/svelte-qrious
 ```
 
+If you are using this in SvelteKit, check [this issue](https://github.com/phippsytech/svelte-qrious/issues/2#issuecomment-1410029003) about additional configuration required in your `vite.config.js`
+
 ## Usage
 ``` html
 <script>
