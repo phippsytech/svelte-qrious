@@ -1,8 +1,9 @@
 {
   "name": "@phippsytech/svelte-qrious",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Svelte wrapper around QRious, a qr code generator",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
